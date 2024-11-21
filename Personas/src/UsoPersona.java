@@ -14,9 +14,11 @@ public class UsoPersona {
         Persona[] lasPersonas=new Persona[2];
         
         lasPersonas[0]=new Empleado("Antonio",55000,2000,04,23);
-        lasPersonas[1]=new Alumno("Pedro","IT Informática de Gestión");
+        lasPersonas[1]=new Alumno("Pedro","IT Informï¿½tica de Gestiï¿½n");
         
         for(Persona p:lasPersonas){
+        	
+        	System.out.println("Datos de empleado:");
             
             System.out.println(p.dameNombre() + ", " + p.dameDescripcion());
         }
