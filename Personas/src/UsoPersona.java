@@ -18,7 +18,7 @@ public class UsoPersona {
         
         for(Persona p:lasPersonas){
         	
-        	System.out.println("Datos de empleado:");
+        	System.out.println("Datos de empleado 2:");
             
             System.out.println(p.dameNombre() + ", " + p.dameDescripcion());
         }
